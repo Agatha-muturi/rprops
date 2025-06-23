@@ -1,5 +1,6 @@
 import{Card} from 'react-bootstrap';
 
+
 function Player({name, team, nationality,jerseyNumber, age, image}) {
    return(
     <Card style={{ width: "18rem", margin: "1rem", border: "2px solid #eee" }}>

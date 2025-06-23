@@ -1,3 +1,4 @@
+
 const Players =[
     {
         'name':'Vinicius',
@@ -13,7 +14,7 @@ const Players =[
         'nationality':'Norway',
         'jerseyNumber': 9,
         'age': 24,
-        'image':'https://images.app.goo.gl/t5wnQgQqLaqZxAL67'
+        'image':'./images/ErlingHaaland.jpeg'
     },
     {
         'name':'Bruno Fernandes',
