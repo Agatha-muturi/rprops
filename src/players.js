@@ -1,3 +1,7 @@
+import viniImage from './images/vini.jpeg';
+import Erling from './images/ErlingHaaland.jpeg';
+import Kane from './images/harryKane.jpeg';
+import Bruno from './images/fernandes.jpeg';
 
 const Players =[
     {
@@ -6,7 +10,7 @@ const Players =[
         'nationality':'Brazil',
         'jerseyNumber':7, 
         'age': 24,
-        'image':'https://images.app.goo.gl/JhwdLqZyN7MB63BC8',
+        'image':viniImage,
     },
     {
         'name':'Erling Haaland',
@@ -14,7 +18,7 @@ const Players =[
         'nationality':'Norway',
         'jerseyNumber': 9,
         'age': 24,
-        'image':'./images/ErlingHaaland.jpeg'
+        'image':Erling
     },
     {
         'name':'Bruno Fernandes',
@@ -22,7 +26,7 @@ const Players =[
         'nationality':'Portugal',
         'jerseyNumber': 8,
         'age': 30,
-        'image':'https://images.app.goo.gl/VxoouZ41W33LYWTCA'
+        'image':Bruno
     },
     {
         'name':'Harry Kane',
@@ -30,7 +34,7 @@ const Players =[
         'nationality':'England',
         'jerseyNumber': 9,
         'age': 31,
-        'image':"https://upload.wikimedia.org/wikipedia/commons/9/9a/Mohamed_Salah_2018.jpg"
+        'image':Kane
     }
 ]
 export default Players;
